@@ -1,0 +1,8 @@
+{
+    "require": {
+        "steveedson/bitbar-php": "^0.4.1",
+        "guzzlehttp/guzzle": "~6.0",
+        "jaggedsoft/php-binance-api": "@dev",
+        "vlucas/phpdotenv": "^2.4"
+    }
+}
