@@ -3,7 +3,7 @@
 require ".bitbar/vendor/autoload.php";
 use SteveEdson\BitBar;
 
-define('HODLING', 0.1506);
+define('HODLING', getenv('HOLDING_BCH'));
 
 // Create BitBar formatter
 $bb = new BitBar();
