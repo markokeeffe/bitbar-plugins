@@ -23,7 +23,9 @@ try {
         ->show();
     $bb->newLine()
         ->setText($e->getMessage())
-        ->show(true);
+        ->show(false);
+
+    die();
 }
 
 
@@ -35,7 +37,7 @@ $bb->newLine()
 $bb->newLine()
     ->setText('Holdings:')
     ->setUrl('')
-    ->show();
+    ->show(false);
 
 $holdings = [];
 
