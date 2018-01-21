@@ -1,5 +1,6 @@
 #!/usr/bin/env php
 <?php
+die();
 require ".bitbar/vendor/autoload.php";
 use SteveEdson\BitBar;
 
